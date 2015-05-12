@@ -9,6 +9,10 @@ We use Gradle to handle our dependencies.
 4. Build binaries  : gradlew buildPackages
 Note: all binaries will be in distributions folder
 
+Optional
+---------
+5: After doing Build binaries and testing then Run "gradlew genPatches" (in the Cauldron-Reloaded root) to generate patch files for Minecraft base classes in the Cauldron-Reloaded root Patches Folder. (only do this if your pushing to github to update your Fork Source or making a Pull Request to add to Main Repo, so when ppl update there forks or do new clone and do gradlew setupCauldron they will get the source patched in the Eclipse Workspace folder) 
+
 Profiling
 ---------
 

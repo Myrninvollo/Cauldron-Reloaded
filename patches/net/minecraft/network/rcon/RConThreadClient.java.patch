@@ -4,8 +4,8 @@
                  BufferedInputStream bufferedinputstream = new BufferedInputStream(this.clientSocket.getInputStream());
                  int i = bufferedinputstream.read(this.buffer, 0, 1460);
  
-+                if (i == -1) this.running = false; // Cauldron
-+
-                 if (10 <= i)
++                if (i == -1) this.running = false; // Cauldron-Reloaded
++                
+                 if (10 > i)
                  {
-                     byte b0 = 0;
+                     return;
