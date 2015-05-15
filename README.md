@@ -1,3 +1,5 @@
+THIS PROJECT IS CLOSED, SEE https://prok.pw/git/Prototik/KCauldron!
+
 Compilation
 -----------
 
