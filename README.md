@@ -1,5 +1,10 @@
 The Midgard RPG Server soruce
 
+adding changes to server:
+1)so that only mods will make villnila mobs spawn.
+2)all worlds will be defualt Void , this makes it easyer for RPG servers since most use a custom map.
+3) anything else i need to change for The Midgard Project including Porting plugins or Mods to work.
+
 Compilation
 -----------
 
@@ -73,3 +78,4 @@ Credits
 * [Forge](http://www.minecraftforge.net) - mod support.
 * [CraftBukkit](http://bukkit.org) - plugin support.
 * [Spigot](http://www.spigotmc.org) - performance optimizations.
+* Blood and the MinecraftPortCentral Team.
